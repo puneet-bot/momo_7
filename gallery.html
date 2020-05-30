@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<head>
+  <link rel="icon" type="image/jpeg"  href="./images/icon.jpeg" >
+  
+  <link rel="stylesheet"type="text/css"href="project.css">
+  <!-- the bootstrap part -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <meta charset="utf-8">
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                // Show hide popover
+                $(".dropdown").click(function(){
+                    $(this).find(".dropdown-menu").slideToggle("fast");
+                });
+            });
+    $(document).on("click", function(event){
+        var $trigger = $(".dropdown");
+        if($trigger !== event.target && !$trigger.has(event.target).length){
+            $(".dropdown-menu").slideUp("fast");
+        }            
+    });
+    </script>
+        
+    </head>
+    <body>
+<!-- the site name  -->
+        <div id="heading">
+        <span>COVID-19</span>
+        </div>
+<!-- the navigation section having different sections  -->
+ <!-- THIS IS A NEW BOOTSTRAP NAVBAR ........  -->
+                                                <!--  -->
+                                                <!--  -->
+                                                <!--  -->
+                                                <!--  -->
+                                                <!--  -->
+                                                <!--  -->
+                                                <!--  -->
+                                                <!--  -->
+                                                <!--  -->
+<nav class="navbar navbar-expand-lg navbar-light ">
+
+
+             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+             </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link"  href="file:///G:/web%20devlopment/ninjathon%20project/ninjathon%20project/team7/project.html">
+                    Home<span class="sr-only">(current)</span>
+                  </a>
+                     </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="file:///G:/web%20devlopment/ninjathon%20project/ninjathon%20project/team7/project%20submit.html">Latest News<span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="file:///G:/web%20devlopment/ninjathon%20project/ninjathon%20project/team7/Blog.html">Blog<span class="sr-only">(current)</span></a>
+                  </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="file:///G:/web%20devlopment/ninjathon%20project/ninjathon%20project/team7/gallery.html">Gallery <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="file:///G:/web%20devlopment/ninjathon%20project/ninjathon%20project/team7/cases.html">Cases<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        COVID
+                      </a>
+                                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="file:///G:/web%20devlopment/ninjathon%20project/ninjathon%20project/team7/dropdown1.html">CORONA VIRUS!</a>
+                                    <a class="dropdown-item" href="file:///G:/web%20devlopment/ninjathon%20project/ninjathon%20project/team7/dropdown-2.html">Prevention</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="file:///G:/web%20devlopment/ninjathon%20project/ninjathon%20project/team7/dropdown-3.html">Symptoms</a>
+                                  </div>
+                    </li>
+
+                    <li class="nav-item active">
+                      <a class="nav-link " href="file:///G:/web%20devlopment/ninjathon%20project/ninjathon%20project/team7/project%20contact.html">Contact <span class="sr-only">(current)</span></a>
+                    </li>
+                    
+                  <li class="nav-item active">
+                    <a class="nav-link" href="file:///G:/web%20devlopment/ninjathon%20project/ninjathon%20project/team7/project%20members.html">Members <span class="sr-only">(current)</span></a>
+                  </li>
+      </ul>
+  </div>
+</nav>
+
+
+
+<div class="container log">
+  <div class="row">
+    <div class="col">
+      1 of 3 <img src="G1.jpg" class="gal">
+    </div>
+    <div class="col">
+      2 of 3 <img src="G2.jpg" class="gal">
+    </div>
+    <div class="col">
+      3 of 3 <img src="G3.jpg" class="gal">
+    </div>
+  </div>
+    <div class="row">
+    <div class="col">
+      1 of 3 <img src="G4.jpg" class="gal">
+    </div>
+    <div class="col">
+      2 of 3 <img src="G5.jpeg" class="gal">
+    </div>
+    <div class="col">
+      3 of 3 <img src="G6.jpg" class="gal">
+    </div>
+  </div>
+    <div class="row">
+    <div class="col">
+      1 of 3 <img src="G7.jpg" class="gal">
+    </div>
+    <div class="col">
+      2 of 3 <img src="G8.jpg" class="gal">
+    </div>
+    <div class="col">
+      3 of 3 <img src="G9.jpg" class="gal">
+    </div>
+  </div>
+</div>

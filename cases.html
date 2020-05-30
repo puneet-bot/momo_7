@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<head>
+  <link rel="icon" type="image/jpeg"  href="./images/icon.jpeg" >
+  
+  <link rel="stylesheet"type="text/css"href="project.css">
+  <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+  <!-- the bootstrap part -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <meta charset="utf-8">
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/996973c893.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- My jQuery -->
+    <script src="main.js"></script>
+
+    <!-- Chart.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+
+    
+        <script>
+          $(document).ready(function(){
+                // Show hide popover
+                $(".dropdown").click(function(){
+                    $(this).find(".dropdown-menu").slideToggle("fast");
+                });
+            });
+    $(document).on("click", function(event){
+        var $trigger = $(".dropdown");
+        if($trigger !== event.target && !$trigger.has(event.target).length){
+            $(".dropdown-menu").slideUp("fast");
+        }            
+    });
+    </script>
+        
+    </head>
+    <body >
+<!-- the site name  -->
+        <div id="heading">
+        <span>COVID-19</span>
+        </div>
+<!-- the navigation section having different sections  -->
+       
+
+ <!-- THIS IS A NEW BOOTSTRAP NAVBAR ........  -->
+                                                <!--  -->
+                                                <!--  -->
+                                                <!--  -->
+                                                <!--  -->
+                                                <!--  -->
+                                                <!--  -->
+                                                <!--  -->
+                                                <!--  -->
+                                                <!--  -->
+<nav class="navbar navbar-expand-lg navbar-light ">
+
+
+             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+             </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link"  href="./project.html">
+                    Home<span class="sr-only">(current)</span>
+                  </a>
+                     </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="./project submit.html">Latest News<span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="./Blog.html">Blog<span class="sr-only">(current)</span></a>
+                  </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="./gallery.html">Gallery <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="./cases.html">Cases<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        COVID
+                      </a>
+                                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="file:///G:/web%20devlopment/ninjathon%20project/ninjathon%20project/team7/dropdown1.html">CORONA VIRUS!</a>
+                                    <a class="dropdown-item" href="file:///G:/web%20devlopment/ninjathon%20project/ninjathon%20project/team7/dropdown-2.html">Prevention</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="file:///G:/web%20devlopment/ninjathon%20project/ninjathon%20project/team7/dropdown-3.html">Symptoms</a>
+                                  </div>
+                    </li>
+
+
+                    <li class="nav-item active">
+                      <a class="nav-link " href="./project contact.html">Contact <span class="sr-only">(current)</span></a>
+                    </li>
+                    
+                  <li class="nav-item active">
+                    <a class="nav-link" href="./project members.html">Members <span class="sr-only">(current)</span></a>
+                  </li>
+      </ul>
+  </div>
+</nav>
+
+<div class="container" style="color:white">
+    <h1 class="text-center mt-5  ">Covid 19 live data (world)</h1>
+    
+    <table class="table"id="tbval" style="color:white" >
+    <thead>
+      <tr>
+       
+        <th >Total Cases</th>
+        <th>Total Deaths</th>
+        <th>Total Recovered</th>
+        <th>New Cases</th>
+        <th>New Deaths</th>
+         <th>New Recovered</th>
+      </tr>
+
+    </thead>
+
+      <tr id="data">
+       
+      </tr>
+
+    </tbody>
+  </table>
+  <button onclick ="refreshData()"class="btn btn-danger btn-block">
+           Refresh Data
+       </button>
+
+</div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+   
+    
+
+        function init()
+        {
+            var url="https://api.covid19api.com/summary"
+
+            var data=""
+
+            $.get(url,function(data)
+            {
+        console.log(data);
+        data=`
+        <td>${data.Global.TotalConfirmed} </td>
+        <td>${data.Global.TotalDeaths}</td>
+        <td>${data.Global.TotalRecovered}</td>
+        <td>${data.Global.NewConfirmed}</td>
+        <td>${data.Global.NewDeaths}</td>
+        <td>${data.Global.NewRecovered}</td>
+
+        `
+           $('#data').html(data)
+            })
+        }
+    function refreshData()
+        {
+            clearData()
+            init()
+        }
+         function clearData()
+
+         {
+            $("#data").empty()
+           
+          }
+</script>
+
+<div class="container">
+            <div class="container-fluid sm-light p-5 text-center my-3">
+                    <th >Total Cases</th>
+              <h1 class=""style="color:white">Covid-19 Tracker India</h1>
+            </div>
+
+            <div class="container my-5">
+              <div class="row text-center">
+                <div class="col-3 text-warning">
+                  <h5>Confirmed</h5>
+                  <p id="confirmed"></p>
+                </div>
+                <div class="col-3 text-info">
+                  <h5>Active</h5>
+                  <p id="active"></p>
+                </div>
+                <div class="col-3 text-success">
+                  <h5>Recovered</h5>
+                  <p id="recovered"></p>
+                </div>
+                <div class="col-3 text-danger">
+                  <h5>Deceased</h5>
+                  <p id="deaths"></p>
+                </div>
+              </div>
+            </div>
+            <canvas id="myChart"></canvas>
+            <div class="container text-center my-3">
+              <h6 class="text-info"style="color:white">
+                Click on the Confirmed/Recovered/Deaths buttons above to see the chart
+                individually.
+              </h6>
+            </div>
+            <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+            crossorigin="anonymous"></script>
+            <script>
+              $(document).ready(function () {
+            // Get JSON data from url
+            $.getJSON("https://api.covid19india.org/data.json", function (data) {
+              var states = [];
+              var confirmed = [];
+              var recovered = [];
+              var deaths = [];
+
+              var total_active;
+              var total_confirmed;
+              var total_recovered;
+              var total_deaths;
+
+              // Take the first element in statewise array and add the objects values into the above variables
+              total_active = data.statewise[0].active;
+              total_confirmed = data.statewise[0].confirmed;
+              total_recovered = data.statewise[0].recovered;
+              total_deaths = data.statewise[0].deaths;
+
+              // The each loop select a single statewise array element
+              // Take the data in that array and add it to variables
+              $.each(data.statewise, function (id, obj) {
+                states.push(obj.state);
+                confirmed.push(obj.confirmed);
+                recovered.push(obj.recovered);
+                deaths.push(obj.deaths);
+              });
+
+              // Remove the first element in the states, confirmed, recovered, and deaths as that is the total value
+              states.shift();
+              confirmed.shift();
+              recovered.shift();
+              deaths.shift();
+
+              // console.log(confirmed);
+              $("#confirmed").append(total_confirmed);
+              $("#active").append(total_active);
+              $("#recovered").append(total_recovered);
+              $("#deaths").append(total_deaths);
+
+              // Chart initialization
+              var myChart = document.getElementById("myChart").getContext("2d");
+              var chart = new Chart(myChart, {
+                type: "line",
+                data: {
+                  labels: states,
+                  datasets: [
+                    {
+                      label: "Confirmed Cases",
+                      data: confirmed,
+                      backgroundColor: "#f1c40f",
+                      minBarLength: 100,
+                    },
+                    {
+                      label: "Recovered",
+                      data: recovered,
+                      backgroundColor: "#2ecc71",
+                      minBarLength: 100,
+                    },
+                    {
+                      label: "Deceased",
+                      data: deaths,
+                      backgroundColor: "#e74c3c",
+                      minBarLength: 100,
+                    },
+                  ],
+                },
+                option: {},
+              });
+            });
+            });
+            </script>
+</div>
+</body>
+
+</html>

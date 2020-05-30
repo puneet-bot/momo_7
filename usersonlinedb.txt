@@ -1,0 +1,1 @@
+CREATE TABLE usersonline ( who varchar(16) not null, whenn int(16) not null);

@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<head>
+  <link rel="icon" type="image/jpeg"  href="./images/icon.jpeg" >
+  
+  <link rel="stylesheet"type="text/css"href="project.css">
+  <!-- the bootstrap part -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+     <script src="https://kit.fontawesome.com/efd8189c29.js" crossorigin="anonymous"></script>
+        <meta charset="utf-8">
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                // Show hide popover
+                $(".dropdown").click(function(){
+                    $(this).find(".dropdown-menu").slideToggle("fast");
+                });
+            });
+    $(document).on("click", function(event){
+        var $trigger = $(".dropdown");
+        if($trigger !== event.target && !$trigger.has(event.target).length){
+            $(".dropdown-menu").slideUp("fast");
+        }            
+    });
+    </script>
+
+        
+    </head>
+    <body>
+<!-- the site name  -->
+        <div id="heading">
+        <span>COVID-19</span>
+        </div>
+<!-- the navigation section having different sections  -->
+       
+<nav class="navbar navbar-expand-lg navbar-light ">
+
+
+             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+             </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link"  href="file:///G:/web%20devlopment/ninjathon%20project/ninjathon%20project/team7/project.html">
+                    Home<span class="sr-only">(current)</span>
+                  </a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="file:///G:/web%20devlopment/ninjathon%20project/ninjathon%20project/team7/project%20submit.html">Latest News<span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="file:///G:/web%20devlopment/ninjathon%20project/ninjathon%20project/team7/Blog.html">Blog<span class="sr-only">(current)</span></a>
+                  </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="file:///G:/web%20devlopment/ninjathon%20project/ninjathon%20project/team7/gallery.html">Gallery <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="file:///G:/web%20devlopment/ninjathon%20project/ninjathon%20project/team7/cases.html">Cases<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        COVID
+                      </a>
+                                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="file:///G:/web%20devlopment/ninjathon%20project/ninjathon%20project/team7/dropdown1.html">CORONA VIRUS!</a>
+                                    <a class="dropdown-item" href="file:///G:/web%20devlopment/ninjathon%20project/ninjathon%20project/team7/dropdown-2.html">Prevention</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="file:///G:/web%20devlopment/ninjathon%20project/ninjathon%20project/team7/dropdown-3.html">Symptoms</a>
+                                  </div>
+                    </li>
+
+                    <li class="nav-item active">
+                      <a class="nav-link " href="file:///G:/web%20devlopment/ninjathon%20project/ninjathon%20project/team7/project%20contact.html">Contact <span class="sr-only">(current)</span></a>
+                    </li>
+                    
+                  <li class="nav-item active">
+                    <a class="nav-link" href="file:///G:/web%20devlopment/ninjathon%20project/ninjathon%20project/team7/project%20members.html">Members <span class="sr-only">(current)</span></a>
+                  </li>
+      </ul>
+  </div>
+</nav>
+
+
+
+
+
+
+<section id="experience">
+
+            <h1 class="section-heading mb75px">
+                <span style="font-size:70px; color: white">
+                    <i class="fas fa-briefcase"></i>
+                </span>
+                <span style="font-size:70px; color: white"> Members </span>
+            </h1>
+
+     
+     
+     
+            <div class="timeline">
+                 <div class="timeline-box ">
+                    <div class="timeline-container">
+                         <div class="card" style="width: 18rem;">
+                                  <section class="front">
+                                        <img class="card-img-top red" src="tanya jha.jpeg" alt="Card image cap">
+                                 </section>
+                                          <section class="back">
+                                                  <div style="width: 20rem;">
+                                                  <div class="card-body">
+                                                    <h5 class="card-title green">TANYA JHA</h5>
+                                                    <h6 class="card-subtitle mb-2 text-muted yellow">SOFTWARE ENGINEER</h6>
+                                                    <p class="card-text blue">Hello Everyone!!!   , Myself Tanya Prakash ,a tech enthusiast ,a second year student  at Birla Institute of Technology,Mesra,pursuing integrated msc in maths and computing ,i am a MERN stack developer and hoping to see myself in data analytics and data science in the coming years ahead.I’m very into web technologies and love intersection of programming, design .Love what Github started doing for students and so much effort they are putting into it,so here is my little contribution to github :https://github.com/tanyajha16</p>
+                                                    <a href="https://www.linkedin.com/in/tanya-prakash-6761ab193/" class="card-link btn btn-ghost"style="float:left">LINKED IN.</a>
+                                                    <a href="https://www.facebook.com/tanya.prakash.9022" class="card-link btn btn-ghost" style="float: right">FACEBOOK.</a>
+                                                  </div>
+                                                </div>
+                                 </section>
+                            </div>
+
+                         </div>        
+                    </div>
+                 <div class="timeline-box ">
+                    <div class="timeline-container">
+                         <div class="card" style="width: 18rem;">
+                                  <section class="front">
+                                        <img class="card-img-top red" src="shivangi tiwari.jpeg" alt="Card image cap">
+                                 </section>
+                                          <section class="back">
+                                                  <div style="width: 20rem;">
+                                                  <div class="card-body">
+                                                    <h5 class="card-title green">SHIVANGI TIWARI</h5>
+                                                    <h6 class="card-subtitle mb-2 text-muted yellow">SOFTWARE ENGINEER</h6>
+                                                    <p class="card-text blue">Hello everyone , myself Shivangi Tiwari , a first year student  at Birla In institute of technology , Mesra , Ranchi pursuing master in computer applications . I have great leadership skills and love to communicate with new people .  I love to explore various technical languages and ready to master them .l love to do competitive programming.  Done various projects on various technical languages like java , cpp , python .I am working on to enhance web development skills .  Also currently  working on data science . I would also like to try my hands on android development in future.Don't hesitate to shoot me an email  tiwarishivangi46@gmail.com</p>
+                                                    <a href="https://www.linkedin.com/in/shivangi-tiwari-99a0851a9" class="card-link btn btn-ghost"style="float:left">LINKED IN.</a>
+                                                    <a href="https://m.facebook.com/tiwarishivangi46" class="card-link btn btn-ghost" style="float: right">FACEBOOK.</a>
+                                                  </div>
+                                                </div>
+                                 </section>
+                            </div>
+
+                                 
+                    </div>
+                </div>
+                
+                 <div class="timeline-box ">
+                    <div class="timeline-container">
+                         <div class="card" style="width: 18rem;">
+                                  <section class="front">
+                                        <img class="card-img-top red" src="Ayush.jpeg" alt="Card image cap">
+                                 </section>
+                                          <section class="back">
+                                                  <div style="width: 20rem;">
+                                                  <div class="card-body">
+                                                    <h5 class="card-title green">AYUSH SINGHLA</h5>
+                                                    <h6 class="card-subtitle mb-2 text-muted yellow">SOFTWARE ENGINEER</h6>
+                                                    <p class="card-text blue">..</p>
+                                                    <a href="https://www.facebook.com/ayush.srivastav.7792" class="card-link btn btn-ghost"style="float:left">LINKED IN.</a>
+                                                    <a href="https://www.facebook.com/ayush.srivastav.7792" class="card-link btn btn-ghost" style="float: right">FACEBOOK.</a>
+                                                  </div>
+                                                </div>
+                                 </section>
+                            </div>
+
+                                 
+                    </div>
+                </div>
+                 <div class="timeline-box ">
+                    <div class="timeline-container">
+                         <div class="card" style="width: 18rem;">
+                                  <section class="front">
+                                        <img class="card-img-top red" src="chanderesh singh.jpeg" alt="Card image cap">
+                                 </section>
+                                          <section class="back">
+                                                  <div style="width: 20rem;">
+                                                  <div class="card-body">
+                                                    <h5 class="card-title green">CHANDERESH SINGH</h5>
+                                                    <h6 class="card-subtitle mb-2 text-muted yellow">SOFTWARE ENGINEER</h6>
+                                                    <p class="card-text blue"> I love to travel and i am a foodie person who has a dream to travel around the world.I’m in second year of Computer Science Engineering studies at Poornima College of Engineering, Jaipur.Currently Know basic IOT and done three projects implementing IOT and embedded C, working on to enhance Web development skills.I’m into web technologies and love Competitive programming, trying hands on Data Science.Love what Github started doing for students and so much effort they are putting into it, here is link to my Github profile-https://github.com/chandresh189</p>                                                    <a href="https://www.linkedin.com/in/chandresh-singh-a01386169" class="card-link btn btn-ghost"style="float:left">LINKED IN.</a>
+                                                    <a href="https://www.facebook.com/chandresh.singh.77312" class="card-link btn btn-ghost" style="float: right">FACEBOOK.</a>
+                                                  </div>
+                                                </div>
+                                 </section>
+                            </div>
+
+                                 
+                    </div>
+                </div>
+                 <div class="timeline-box ">
+                    <div class="timeline-container">
+                         <div class="card" style="width: 18rem;">
+                                  <section class="front">
+                                        <img class="card-img-top red" src="shubham singla.jpeg" alt="Card image cap">
+                                 </section>
+                                          <section class="back">
+                                                  <div style="width: 20rem;">
+                                                  <div class="card-body">
+                                                    <h5 class="card-title green">SHUBHAM SINGLA</h5>
+                                                    <h6 class="card-subtitle mb-2 text-muted yellow">SOFTWARE ENGINEER</h6>
+                                                    <p class="card-text blue">...</p>
+                                                    <a href="https://www.linkedin.com/in/shubhamsingla/" class="card-link btn btn-ghost" style="float:left">LINKED IN.</a>
+                                                    <a href="" class="card-link btn btn-ghost" style="float: right">FACEBOOK.</a>
+                                                  </div>
+                                                </div>
+                                 </section>
+                            </div>
+
+                                 
+                    </div>
+                </div>
+                                 <div class="timeline-box ">
+                    <div class="timeline-container">
+                         <div class="card" style="width: 18rem;">
+                                  <section class="front">
+                                        <img class="card-img-top red" src="sparsh.jpeg" alt="Card image cap">
+                                 </section>
+                                          <section class="back">
+                                                  <div style="width: 20rem;">
+                                                  <div class="card-body">
+                                                    <h5 class="card-title green">SPARSH</h5>
+                                                    <h6 class="card-subtitle mb-2 text-muted yellow">SOFTWARE ENGINEER</h6>
+                                                    <p class="card-text blue">........</p>
+                                                    <a href="https://www.linkedin.com/in/sparsh-jindal-80a3a2158/" class="card-link btn btn-ghost" style="float:left">LINKED IN.</a>
+                                                    <a href="#" class="card-link btn btn-ghost" style="float: right">FACEBOOK.</a>
+                                                  </div>
+                                                </div>
+                                 </section>
+                            </div>
+
+                                 
+                    </div>
+                </div>
+                 <div class="timeline-box ">
+                    <div class="timeline-container">
+                         <div class="card" style="width: 18rem;">
+                                  <section class="front">
+                                        <img class="card-img-top red" src="puneet.jpg" alt="Card image cap">
+                                 </section>
+                                          <section class="back">
+                                                  <div style="width: 20rem;">
+                                                  <div class="card-body">
+                                                    <h5 class="card-title green">PUNEET ARORA</h5>
+                                                    <h6 class="card-subtitle mb-2 text-muted yellow">SOFTWARE ENGINEER</h6>
+                                                    <p class="card-text blue">
+                                                      Hello everybody!I’m in Third year of my Software Engineering studies at Krishna Engineering College,Ghaziabad.I’m very into web technologies and love intersection of programming, design and business.Thanks to Coding Ninjas! Perfect experience..
+                                                      My hobbies are Cricket,TT,Skating etc.My ambition towards Life is to become a Successful Honest Man.
+</p>
+                                                    <a href="http://linkedin.com/in/puneet-a-765b1ab0" class="card-link btn btn-ghost" style="float:left">LINKED IN.</a>
+                                                    <a href="https://www.facebook.com/puneet.arora.73744" class="card-link btn btn-ghost"style="float: right">FACEBOOK.</a>
+                                                  </div>
+                                                </div>
+                                 </section>
+                            </div>
+
+                                 
+                    </div>
+                </div>
+                
+                
+                <div id="timeline-divider">
+                    <div class="timeline-traveller">
+                        <div>
+                            <i class="fas fa-plane"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                
+                
+
+
+            </div>
+          </section>
+
+
+
+
+
+
+
+          <!-- Footer -->
+<footer class="page-footer font-small cyan darken-3">
+
+  <!-- Footer Elements -->
+  <div class="container">
+
+    <!-- Grid row-->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-12 py-5">
+        <div class="mb-5 flex-center">
+          <!-- Facebook -->
+          <a class="fb-ic" align="center" href="">
+            <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x" href=""> </i>
+          </a>
+
+          <!--Instagram-->
+          <a class="ins-ic" align="center"  href="https://instagram.com/team_tandoori_momos?igshid=t4kvy2zb2ftp">
+            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+
+        </div>
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row-->
+
+  </div>
+  <!-- Footer Elements -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="#"> Tandoori Momos</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+    </body>
+</html>
